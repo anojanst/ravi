@@ -81,3 +81,16 @@ function get_label_info($id) {
 	include 'conf/closedb.php';
 }
 
+function delete_label($id, $label){
+	include 'conf/config.php';
+	include 'conf/opendb.php';
+	
+	 
+	$query = "DELETE FROM label
+	WHERE id='$id'";
+
+	mysqli_query($conn, $query);
+
+	include 'conf/closedb.php';
+}
+
