@@ -3,5 +3,5 @@
 $dbhost='localhost';
 $dbuser='root';
 $dbpass='anojan10';
-$dbname='partyboosts';
+$dbname='git';
 ?>
