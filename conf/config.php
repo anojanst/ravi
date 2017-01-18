@@ -1,7 +1,7 @@
 ﻿<?php
 //db properties
 $dbhost='localhost';
-$dbuser='root';
+$dbuser='';
 $dbpass='anojan10';
 $dbname='partyboosts';
 ?>
