@@ -34,7 +34,7 @@ include 'functions/label_functions.php';
 			$smarty->display('add/add.tpl');
 		}
 		elseif ($_REQUEST['job']=='delete'){
-			cancel_label($_REQUEST['id']);
+			delete_label($_REQUEST['id']);
 		
 			$smarty->assign('page', "Label");
 			$smarty->display('add/add.tpl');

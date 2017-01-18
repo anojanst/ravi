@@ -81,11 +81,12 @@ function get_label_info($id) {
 	include 'conf/closedb.php';
 }
 
-function delete_label($id, $label){
+function delete_label($id){
 	include 'conf/config.php';
 	include 'conf/opendb.php';
 	
-	 
+	 echo "DELETE FROM label
+	WHERE id='$id'";
 	$query = "DELETE FROM label
 	WHERE id='$id'";
 
